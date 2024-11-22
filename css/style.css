@@ -689,11 +689,12 @@ p.comment-form-author {
 .contact-form input[type="text"] {
 	padding:15px;
 	width:95%;
-	color:#999;
+	color:#fff;
 	font-size:1em;
 	border:none;
+	border-radius: 20px;
 	-webkit-appearance:none;
-	background:#fff;
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	outline: none;
 	display: block;
 	font-family: 'Open Sans', sans-serif;
@@ -702,10 +703,11 @@ p.comment-form-author {
 	padding:10px;
 	display: block;
 	width:95%;
-	background:#fff;
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	border:none;
+	border-radius: 20px;
 	outline: none;
-	color:#999;
+	color:#fff;
 	font-size:1em;
 	-webkit-appearance: none;
 	resize: none;
@@ -715,7 +717,7 @@ p.comment-form-author {
 .contact-form input[type="submit"]{
 	padding: 0.6em 2em;
 	text-decoration: none;
-	border: 2px solid #1E494C;
+	border: none;
 	margin-top: 1em;
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
@@ -731,15 +733,15 @@ p.comment-form-author {
 	border-radius: 0.4em;
 	-moz-border-radius: 0.4em;
 	-o-border-radius: 0.4em;
-	background: #ffffff;
+	background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	font-weight: 700;
 	width:37%;
 	outline: none;
 }
 .contact-form input[type="submit"]:hover{
-	background: none;
-	border: 2px solid #fff;
-	color:#fff;
+	background: #fff;
+	border: none;
+	color:#888;
 }
 /*******footer***/
 .footer {
